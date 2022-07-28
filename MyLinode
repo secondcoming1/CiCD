@@ -1,0 +1,5 @@
+---
+
+- name: return hosts to registered var
+  command: cat /etc/hosts
+  register: myhost
